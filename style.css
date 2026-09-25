@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(75, 75, 75);
+    align-content: center;
+
+
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+}
+
+p {
+    background-color: rgb(255, 231, 122);
+    width: 172px;
+    height: 10px;
+    padding: 20px;
+    white-space: nowrap;
+    /* Prevents text from wrapping to a new line */
+    overflow: hidden;
+    /* Hides the text that overflows the container */
+    text-overflow: ellipsis;
+    /* Adds the '...' at the end of the visible text */
+
+
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 231, 122);
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.middleRows {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#plus {
+    height: 100px;
+    margin-left: 4px;
+}
+
+#zero {
+    width: 104px;
+}
+
+.ac,
+.equal {
+    background-color: orange;
+}
+
+.grey {
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 231, 122);
+}
